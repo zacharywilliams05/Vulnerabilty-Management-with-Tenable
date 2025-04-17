@@ -196,32 +196,24 @@ The Change Control Board (CAB) reviewed and approved the plan to remove insecure
 <details>
 <summary>Click to expand meeting text</summary>
     
-![Brenda](https://github.com/user-attachments/assets/fc846433-bdd9-4cae-bf11-c7fca5f1bdb7) **Brenda (CAB Facilitator):**  
-Okay, next up on the list are a couple of vulnerability remediations for the server team. Number one: removal of insecure protocols, and number two: removal of insecure Cipher Suites. It looks like Zack from the risk department is working in conjunction with Jimmy from infrastructure on this. Jimmy, do you want to walk us through the technical aspects of the change being implemented?
+![Brenda](https://github.com/user-attachments/assets/fc846433-bdd9-4cae-bf11-c7fca5f1bdb7) **Brenda (CAB Facilitator):** Okay, next up on the list are a couple of vulnerability remediations for the server team. Number one: removal of insecure protocols, and number two: removal of insecure Cipher Suites. It looks like Zack from the risk department is working in conjunction with Jimmy from infrastructure on this. Jimmy, do you want to walk us through the technical aspects of the change being implemented?
 
-![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy (Server Team):**  
-Normally I would, but do you mind giving this one to Zack? He actually built a solution for us, and we're still getting used to the process.
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy (Server Team):** Normally I would, but do you mind giving this one to Zack? He actually built a solution for us, and we're still getting used to the process.
 
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):**  
-Uh, yeah, I can explain these. So basically, insecure Cipher Suites and protocols—the existence of those on the system just means that the system is capable of negotiating and using some kind of algorithm or protocol that's been deprecated. Right? If it connects to a server and the server only wants to use those protocols, it's possible that the computer will use them. These are controlled by the Windows registry. It's a really simple fix. We just wrote a PowerShell script that goes through and disables all the insecure protocols and ciphers, and then enables the ones that are standardized or that are like today's standard that are secure. So it's really straightforward.
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** Uh, yeah, I can explain these. So basically, insecure Cipher Suites and protocols—the existence of those on the system just means that the system is capable of negotiating and using some kind of algorithm or protocol that's been deprecated. Right? If it connects to a server and the server only wants to use those protocols, it's possible that the computer will use them. These are controlled by the Windows registry. It's a really simple fix. We just wrote a PowerShell script that goes through and disables all the insecure protocols and ciphers, and then enables the ones that are standardized or that are like today's standard that are secure. So it's really straightforward.
 
-![Samantha](https://github.com/user-attachments/assets/79938ccd-89fb-48ac-a053-3c7ec0d04f4f) **Samantha (Lead System Engineer):**  
-Yeah, that sounds good. But what if something goes wrong? Do we have a rollback plan in place? Did you even think about that?
+![Samantha](https://github.com/user-attachments/assets/79938ccd-89fb-48ac-a053-3c7ec0d04f4f) **Samantha (Lead System Engineer):** Yeah, that sounds good. But what if something goes wrong? Do we have a rollback plan in place? Did you even think about that?
 
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):**  
-Yes, absolutely. So first of all, we have a tiered deployment. That means a pilot group, which is a really small group of computers, pre-pilot, pre-production, and then finally production where it goes everywhere. On top of this, we have a fully built-in test and automated rollback script for each remediation. The script will actually restore the original protocols and ciphers should there be any unknown issues that come up.
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** Yes, absolutely. So first of all, we have a tiered deployment. That means a pilot group, which is a really small group of computers, pre-pilot, pre-production, and then finally production where it goes everywhere. On top of this, we have a fully built-in test and automated rollback script for each remediation. The script will actually restore the original protocols and ciphers should there be any unknown issues that come up.
 
-**Samantha (Lead System Engineer):**  
-That sounds good. I guess I notice the fixes are simple registry updates. I'm not too concerned, I suppose.
+![Samantha](https://github.com/user-attachments/assets/79938ccd-89fb-48ac-a053-3c7ec0d04f4f) **Samantha (Lead System Engineer):** That sounds good. I guess I notice the fixes are simple registry updates. I'm not too concerned, I suppose.
 
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):**  
-Yep, exactly. Any more questions from anybody?
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** Yep, exactly. Any more questions from anybody?
 
-![Brenda](https://github.com/user-attachments/assets/fc846433-bdd9-4cae-bf11-c7fca5f1bdb7) **Brenda (CAB Facilitator):**  
-Great! That wraps things up for this week's CAB meeting. See you all next week!
+![Brenda](https://github.com/user-attachments/assets/fc846433-bdd9-4cae-bf11-c7fca5f1bdb7) **Brenda (CAB Facilitator):** Great! That wraps things up for this week's CAB meeting. See you all next week!
 
-**All:**  
-See you later!
+**All:** See you later!
+
 
 </details>
 
