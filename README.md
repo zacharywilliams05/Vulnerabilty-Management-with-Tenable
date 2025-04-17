@@ -158,9 +158,36 @@ The server team received remediation scripts and scan reports to address key vul
 
 The server team reviewed vulnerability scan results, identifying outdated software, insecure accounts, and deprecated protocols. The remediation packages were prepared for submission to the Change Control Board (CAB). 
 
-<a href="https://youtu.be/0tjjFewxSNw" target="_"><img width="600" src="https://github.com/user-attachments/assets/03027c66-5f7c-42d0-b6dd-09d053c040b1"/></a>
+<details>
+<summary>Click to expand meeting text</summary>
 
-[Meeting Video](https://youtu.be/0tjjFewxSNw)
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst): Morning, how are you doing?
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team): Not bad for a Monday. And yourself?
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst): I'm still alive, so I can't complain. But before we get into the vulnerabilities, how did the actual scan go on your end? Did you have any outages or overutilization or anything?
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team): The scan went well. We were monitoring them, and aside from all the open connections, we would have never known a scan was taking place.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst): Yeah, that's good news. I kind of expected that much. We can keep monitoring going forward, but I don't expect we'll have any issues with resource utilization. Do you mind if I dive into the vulnerability findings?
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team): Yeah, absolutely.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst): Cool. I'm going to share my screen really quick. So basically, the majority of these vulnerabilities come from Wireshark being installed. You can see all these Wiresharks because it's just super out of date, that's all. One interesting thing I did find is that the local guest account on the servers actually belongs to a group, and I looked deeper, and it belongs to the local administrators group. I'm not sure why that is. Also, some of these might be automatically resolved by Windows updates, like this Microsoft Edge Chromium one. And then I'm not sure about this one as well; it could be resolved by Windows updates. I'm not really sure. But we don't have to worry about the self-signed certificate one because it's just the computer's self-signed certificate.
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team): Right.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst): But these medium-strength cipher suites and TLS 1.1 and 1.0 are deprecated cipher suites and deprecated protocols. So I think we should take some time to remediate these. Basically, just Wireshark the protocols, cipher suites, and removing the guest account is what we're looking at.
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team): Very interesting. The good news is I suspect most of our servers are going to have the same vulnerabilities. Hopefully, that makes things easier during remediation.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst): Yeah, that's actually good news—like a uniform loadout. Do you foresee any issues with remediating any, specifically like the cipher suites and the insecure protocols?
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team): I highly doubt there will be any issues. We'll run it through the next Change Control Board. Uninstalling Wireshark and fixing the guest account shouldn't be an issue; those aren't supposed to be on the servers anyway. I'll have to talk to our CIS admins about that.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea
+
+</details>
 
 ---
 
