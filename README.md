@@ -50,13 +50,39 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 <details>
 <summary>Click to expand meeting text</summary>
 
-This is the content that will be hidden until the user clicks on the summary above. You can put any Markdown content here, including lists, links, images, etc.
 ![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352)
 ![zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e)
 
-- Item 1
-- Item 2
-- [Link to Google](https://www.google.com)
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352)  
+**Jimmy:** Hey, good morning, Zack! How's everything been recently? I know everyone's been busy these last few weeks.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e)  
+**Zack:** Good morning, Jimmy! Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking. I had a chance to read through the policy draft, and overall it makes sense. However, with our current staffing, we can't meet the aggressive remediation timelines, especially the 48-hour window for critical vulnerabilities.
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352)  
+**Jimmy:** I totally understand. It is a bit aggressive, especially to start. Perhaps we can extend the critical timeline to one week? It might be a good compromise for now, and we can reserve the 48-hour window for truly severe zero-day vulnerabilities.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e)  
+**Zack:** That sounds reasonable. We appreciate the flexibility. Can we have a bit of leeway in the beginning as we work through getting used to the remediation and patching process, just for the first few months?
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352)  
+**Jimmy:** Absolutely. After the policy is finalized, we'll officially start the program, but we're planning to give all the departments about six months to adjust to the new process. Does that sound fair?
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e)  
+**Zack:** Thanks, Jimmy. We'll do our best. I appreciate you including us in the decision-making process; it really helps us feel like we're part of the solution.
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352)  
+**Jimmy:** Of course! We're all in this together. Thanks for working with us.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e)  
+**Zack:** No problem! Thanks for the short meeting.
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352)  
+**Jimmy:** Yeah, those are my favorite types. Bye for now!
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e)  
+**Zack:** See you later!
+
 
 </details>
 
