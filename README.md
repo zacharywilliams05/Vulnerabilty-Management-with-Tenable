@@ -1,6 +1,5 @@
 # Vulnerabilty-Management-with-Tenable
-A project to simulate my understanding of vulnerability management.
-In this project, we simulate the implementation of a comprehensive vulnerability management program, from inception to completion.
+A project to simulate the inception and implementation of a vulnerability management policy. In this case we assume:
 
 _**Inception State:**_ the organization has no existing policy or vulnerability management practices in place.
 
