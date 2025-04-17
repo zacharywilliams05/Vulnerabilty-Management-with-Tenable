@@ -116,8 +116,6 @@ The team collaborates with the server team to initiate scheduled credential scan
 
 **![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team):** Awesome! Okay, talk soon.
 
-**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea
-
 </details>
 
 ---
