@@ -50,21 +50,26 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 <details>
 <summary>Click to expand meeting text</summary>
     
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack:** Hey, good morning, Jimmy! How's everything been recently? I know everyone's been busy these last few weeks.
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** Hey, good morning, Jimmy! How's everything been recently? I know everyone's been busy these last few weeks.
 
-![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy:** Good morning, Zack! Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking. I had a chance to read through the policy draft, and overall it makes sense. However, with our current staffing, we can't meet the aggressive remediation timelines, especially the 48-hour window for critical vulnerabilities.
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy (Server Team):** Good morning, Zack! Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking. I had a chance to read through the policy draft, and overall it makes sense. However, with our current staffing, we can't meet the aggressive remediation timelines, especially the 48-hour window for critical vulnerabilities.
 
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack:** I totally understand. It is a bit aggressive, especially to start. Perhaps we can extend the critical timeline to one week? It might be a good compromise for now, and we can reserve the 48-hour window for truly severe zero-day vulnerabilities.
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** I totally understand. It is a bit aggressive, especially to start. Perhaps we can extend the critical timeline to one week? It might be a good compromise for now, and we can reserve the 48-hour window for truly severe zero-day vulnerabilities.
 
-![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy:** That sounds reasonable. We appreciate the flexibility. Can we have a bit of leeway in the beginning as we work through getting used to the remediation and patching process, just for the first few months?
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy (Server Team):** That sounds reasonable. We appreciate the flexibility. Can we have a bit of leeway in the beginning as we work through getting used to the remediation and patching process, just for the first few months?
 
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack:** Absolutely. After the policy is finalized, we'll officially start the program, but we're planning to give all the departments about six months to adjust to the new process. Does that sound fair?
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** Absolutely. After the policy is finalized, we'll officially start the program, but we're planning to give all the departments about six months to adjust to the new process. Does that sound fair?
 
-![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy:** Thanks, Zack. We'll do our best. I appreciate you including us in the decision-making process; it really helps us feel like we're part of the solution.
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy (Server Team):** Thanks, Zack. We'll do our best. I appreciate you including us in the decision-making process; it really helps us feel like we're part of the solution.
 
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack:** Of course! We're all in this together. Thanks for working with us.
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** Of course! We're all in this together. Thanks for working with us.
 
-![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy:** No problem! Thanks for
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy (Server Team):** No problem! Thanks for the short meeting.
+
+![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack (Vulnerability Analyst):** Yeah, those are my favorite types. Bye for now!
+
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy (Server Team):** See you later!
+
 
 </details>
 
