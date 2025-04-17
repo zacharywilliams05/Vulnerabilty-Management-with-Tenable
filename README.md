@@ -51,6 +51,8 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 <summary>Click to expand meeting text</summary>
 
 This is the content that will be hidden until the user clicks on the summary above. You can put any Markdown content here, including lists, links, images, etc.
+![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352)
+![zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e)
 
 - Item 1
 - Item 2
