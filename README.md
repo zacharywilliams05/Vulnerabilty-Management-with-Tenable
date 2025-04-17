@@ -89,9 +89,36 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
 
-<a href='https://youtu.be/lg068WA4SKM' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/31fe8d0f-636b-475b-8d5a-a2795c183f86"></a>
+<details>
+<summary>Click to expand meeting text</summary>
+    
+**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst):** Good morning!
 
-[YouTube Video: Initial Discovery Scan](https://youtu.be/lg068WA4SKM)
+**![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team):** Good morning, Zack! I heard you’re ready to conduct some scans.
+
+**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst):** Yep! Now that our vulnerability management policy is in place, I wanted to get started on conducting some scheduled credential scans of your environment.
+
+**![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team):** Sounds good to me! What’s involved? How can we help?
+
+**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst):** We’re planning to schedule some weekly scans of the server infrastructure. We estimate it’ll take about 4 to 6 hours to scan all 200 assets. We’ll need you to provide us with some administrative credentials, which will allow the scan engine to remotely log into the targets to better assess them.
+
+**![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team):** Whoa, whoa! Hold on there. What does scanning actually entail? I’m a bit worried about resource utilization. Also, you want admin credentials to all 200 machines? That doesn’t sound safe.
+
+**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst):** Those are valid concerns. The scan engine basically sends different traffic to the servers that will check for the existence of certain vulnerabilities. This includes looking into the registry and checking if certain out-of-date software is installed or if there are any insecure protocols or suites. That’s why credentials are required.
+
+**![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team):** I see. Well, as long as it doesn’t bring the servers offline, I guess we should be okay.
+
+**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst):** Absolutely! Let’s just scan a single server for now and keep an eye on the resource utilization.
+
+**![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team):** Not a bad idea. Great! Also, for the credentials, can you set up something in Active Directory for us? Like some Active Directory credentials? You can just leave them disabled until we’re ready to do the scan, and then enable them during the scan. After it’s finished, we can deprovision or at least disable that account—kind of like a just-in-time access situation.
+
+**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) Zack (Vulnerability Analyst):** That sounds good! I’ll ask Susan to get started on the automation for the account provisioning.
+
+**![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team):** Awesome! Okay, talk soon.
+
+**![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea
+
+</details>
 
 ---
 
