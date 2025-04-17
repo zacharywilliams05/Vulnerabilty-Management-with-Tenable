@@ -185,8 +185,6 @@ The server team reviewed vulnerability scan results, identifying outdated softwa
 
 ![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) Jimmy (Server Team): I highly doubt there will be any issues. We'll run it through the next Change Control Board. Uninstalling Wireshark and fixing the guest account shouldn't be an issue; those aren't supposed to be on the servers anyway. I'll have to talk to our CIS admins about that.
 
-![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea
-
 </details>
 
 ---
