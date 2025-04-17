@@ -47,9 +47,16 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
 
-<a href='https://youtu.be/8g6uafc6LjE' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/549d21f4-26c2-412d-9117-d7b6835aedbf"></a>
+<details>
+<summary>Click to expand meeting text</summary>
 
-[YouTube Video: Stakeholder Policy Buy-In Meeting](https://youtu.be/8g6uafc6LjE)
+This is the content that will be hidden until the user clicks on the summary above. You can put any Markdown content here, including lists, links, images, etc.
+
+- Item 1
+- Item 2
+- [Link to Google](https://www.google.com)
+
+</details>
 
 ---
 
