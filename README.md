@@ -49,6 +49,7 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 
 <details>
 <summary>Click to expand meeting text</summary>
+    
 ![Jimmy](https://github.com/user-attachments/assets/342408c8-2873-4fb3-ba99-ab70c5f1c352) **Jimmy:** Hey, good morning, Zack! How's everything been recently? I know everyone's been busy these last few weeks.
 
 ![Zack](https://github.com/user-attachments/assets/0d32b225-87b9-409e-83af-122c449ea81e) **Zack:** Good morning, Jimmy! Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking. I had a chance to read through the policy draft, and overall it makes sense. However, with our current staffing, we can't meet the aggressive remediation timelines, especially the 48-hour window for critical vulnerabilities.
