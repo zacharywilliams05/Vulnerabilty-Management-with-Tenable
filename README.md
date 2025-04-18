@@ -79,9 +79,8 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 
 After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
 [Finalized Policy](https://docs.google.com/document/d/1rvueLX_71pOR8ldN9zVW9r_zLzDQxVsnSUtNar8ftdg/edit?usp=drive_link)
-<div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/9afcdbc1-0493-4af2-9287-1cb9b8f59b40" alt="image" width="400">
-</div>
+
+![approved](https://github.com/user-attachments/assets/1e8ea0ff-c986-45b0-b2a6-a546ed92dc5f)
 
 ---
 
