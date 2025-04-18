@@ -237,9 +237,10 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 [PowerShell: Insecure Protocols Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-protocols.ps1)
 [PowerShell: Insecure Ciphers Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-cipher-suites.ps1)
 
-<img width="630" alt="image" src="https://github.com/user-attachments/assets/0e96120d-8ec9-4f76-8e42-79c752200010">
+<img width="630" alt="Scan 3" src="https://github.com/user-attachments/assets/ca70880a-fbb0-4a88-aa37-dd62d021bd5e" />
 
-[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Qc6-ezQvwReCGUZNtnva0kCZo_-zW-Sm/view?usp=drive_link)
+[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1VopbZlTPOaoLYJXHKo0VXtLTS7mW3XfH/view?usp=sharing)
+
 
 
 #### Remediation Round 3: Guest Account Group Membership
