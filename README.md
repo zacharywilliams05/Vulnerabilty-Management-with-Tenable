@@ -149,8 +149,6 @@ The server team received remediation scripts and scan reports to address key vul
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/bbf9478f-e1d1-4898-846e-b510ec8c6f72">
 
-[Remediation Email](https://github.com/joshmadakor1/lognpacific-public/blob/main/misc/remediation-email.md)
-
 ---
 
 ### Step 8) Mock Meeting: Post-Initial Discovery Scan (Server Team)
