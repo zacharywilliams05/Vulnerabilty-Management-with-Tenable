@@ -257,15 +257,16 @@ The server team removed the guest account from the administrator group. A new sc
 
 Windows updates were re-enabled and applied until the system was fully up to date. A final scan verified the changes  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+<img width="627" alt="scan 5" src="https://github.com/user-attachments/assets/6b4e80a8-f964-42cf-a526-9cc4477a20a4" />
 
-[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1tmDjeHl5uiGitRwWy8kFRi33q-nGi1Zt/view?usp=drive_link)
+[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/19h6PeROIL7aLs3XeTgwKi-o0ixfe4AjR/view?usp=sharing)
 
 ---
 
+
 ### First Cycle Remediation Effort Summary
 
-The remediation process reduced total vulnerabilities by 80%, from 30 to 6. Critical vulnerabilities were resolved by the second scan (100%), and high vulnerabilities dropped by 90%. Mediums were reduced by 76%. In an actual production environment, asset criticality would further guide future remediation efforts.  
+The remediation process reduced total vulnerabilities by 80%, from 30 to 6. Critical vulnerabilities were resolved by the second scan (100%), and high vulnerabilities dropped by 90%. Mediums were reduced by 76%. Interestingly, Windows Update created a new vulnerability (SMB Signing Not Required) rather than remediate one. In an actual production environment, asset criticality would further guide future remediation efforts.  
 
 <img width="1920" alt="image" src="https://github.com/user-attachments/assets/51f0aae8-7f36-4d90-b29f-5257e57155f9">
 
