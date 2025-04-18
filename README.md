@@ -263,7 +263,7 @@ Windows updates were re-enabled and applied until the system was fully up to dat
 
 ### First Cycle Remediation Effort Summary
 
-The remediation process reduced total vulnerabilities by 60%, from 31 to 13. Critical vulnerabilities were resolved by the second scan (100%), and high vulnerabilities dropped by 90%. Mediums were reduced by 76%. Interestingly, Windows Update created a new vulnerability (SMB Signing Not Required) rather than remediate one. In an actual production environment, asset criticality would further guide future remediation efforts.  
+The remediation process reduced total vulnerabilities by 60%, from 31 to 13. Critical vulnerabilities were resolved by the second scan (100%), and high vulnerabilities dropped by 64% (11 to 4). Mediums were reduced by 76%. Interestingly, Windows Update created a new vulnerability (SMB Signing Not Required) rather than remediate one. In an actual production environment, asset criticality would further guide future remediation efforts.  
 
 <img width="1920" alt="remediation data" src="https://github.com/user-attachments/assets/60bcdbfc-34be-462b-afa2-b6f99b2c202f" />
 
