@@ -126,7 +126,7 @@ In this phase, an insecure Windows Server is provisioned to simulate the server 
 
 <img width="635" alt="Scan 1" src="https://github.com/user-attachments/assets/c0af6fd3-5aaf-4608-890d-5e2bf11af19c" style="border: 2px solid black;"/>
 
-[Scan 1 - Initial Scan]
+[Scan 1 - Initial Scan](https://drive.google.com/file/d/1c_OdRGN8cJqEBANynG6Y1GgVBLEd48R_/view?usp=sharing)
 
 
 
