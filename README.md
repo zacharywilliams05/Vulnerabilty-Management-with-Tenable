@@ -248,9 +248,9 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
 [PowerShell: Guest Account Group Membership Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-guest-local-administrators.ps1)  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+<img width="627" alt="scan 4" src="https://github.com/user-attachments/assets/f964d285-77e9-4e07-ac5a-c0921688eaed" />
 
-[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1jVgikjfrV1YjOcL3QRT_oUB0Y82w22V7/view?usp=drive_link)
+[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1OD1sBOrXVIRQ-hQd4cHTU8QBwdUpbY0i/view?usp=sharing)
 
 
 #### Remediation Round 4: Windows OS Updates
