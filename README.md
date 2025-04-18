@@ -265,9 +265,10 @@ Windows updates were re-enabled and applied until the system was fully up to dat
 
 The remediation process reduced total vulnerabilities by 80%, from 30 to 6. Critical vulnerabilities were resolved by the second scan (100%), and high vulnerabilities dropped by 90%. Mediums were reduced by 76%. Interestingly, Windows Update created a new vulnerability (SMB Signing Not Required) rather than remediate one. In an actual production environment, asset criticality would further guide future remediation efforts.  
 
-<img width="1920" alt="image" src="https://github.com/user-attachments/assets/51f0aae8-7f36-4d90-b29f-5257e57155f9">
+<img width="1920" alt="remediation data" src="https://github.com/user-attachments/assets/60bcdbfc-34be-462b-afa2-b6f99b2c202f" />
 
-[Remediation Data](https://docs.google.com/spreadsheets/d/1FTtFfZYmFsNLU6pm8nTzsKyKE-d2ftXzX_DPwcnFNfA/edit?gid=0#gid=0)
+[Remediation Data](https://docs.google.com/spreadsheets/d/1_WdvoIN4H0syXYXncAg-MpmSADD2lW1LJzZZKkJ4Dp8/edit?gid=0#gid=0)
+
 
 ---
 
