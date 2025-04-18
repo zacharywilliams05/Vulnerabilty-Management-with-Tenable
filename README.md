@@ -1,4 +1,4 @@
-# Vulnerabilty-Management-with-Tenable
+![VM Cycle](https://github.com/user-attachments/assets/1bad0f08-fe90-4741-9ac5-ece20d634e51) # Vulnerabilty-Management-with-Tenable
 A project to simulate the inception and implementation of a vulnerability management policy. In this case we assume:
 
 _**Inception State:**_ the organization has no existing policy or vulnerability management practices in place.
@@ -15,6 +15,7 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 - PowerShell & BASH (remediation scripts)
 
 ---
+
 
 
 # Table of Contents
