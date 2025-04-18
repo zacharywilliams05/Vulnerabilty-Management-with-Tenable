@@ -1,4 +1,5 @@
-![VM Cycle](https://github.com/user-attachments/assets/1bad0f08-fe90-4741-9ac5-ece20d634e51) # Vulnerabilty-Management-with-Tenable
+![vm cycle (1)](https://github.com/user-attachments/assets/76f874f5-3ebc-470a-abc3-c900cd2a10b7)
+# Vulnerabilty-Management-with-Tenable
 A project to simulate the inception and implementation of a vulnerability management policy. In this case we assume:
 
 _**Inception State:**_ the organization has no existing policy or vulnerability management practices in place.
